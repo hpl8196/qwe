@@ -1,0 +1,149 @@
+@charset "utf-8";
+/*头部*/
+.head h1{
+	margin-top: 14px;
+}
+.head p{
+	font-size: 14px;
+	font-family: :'宋体';
+	color:#333333;
+	margin-top:16px;
+	background: url(../images/beijing.png) no-repeat left center;
+	padding-left:15px;
+}
+.head span{
+	color:#999999;
+}
+/*导航*/
+.nav{
+	height: 43px;
+	border-top:1px solid #CDCDCD;
+	border-bottom:1px solid #CDCDCD;
+	background-color:#EBEBEB;
+	margin-bottom:30px;
+	margin-top:22px;
+}
+.nav ul li{
+	font-size:16px;
+	font-weight:'宋体';
+	color:black;
+	line-height:43px;
+	text-align:center;
+	padding:0 16px;
+	height: 40px;
+	float:left;
+
+}
+.nav li a{
+	color:black;
+}
+ .nav ul .active{
+	border-left:1px solid #CDCDCD;
+	border-right:1px solid #CDCDCD;
+	border-top:3px solid red;
+	background-color:white;
+	height: 41px;
+	padding:0 15px;
+	line-height:38px;
+}
+.nav li:hover{
+	border-left:1px solid #CDCDCD;
+	border-right:1px solid #CDCDCD;
+	border-top:3px solid red;
+	background-color:white;
+	height: 41px;
+	padding:0 15px;
+	line-height:38px;
+}
+.content li{
+	width: 235px;
+	height: 268px;
+	border:1px solid #E4E4E4 ;
+	float:left;
+	margin-right:16px;
+	margin-top:31px;
+}
+.l1 img{
+		margin-top:12px;
+}
+.content h4{
+	font-size:16px;
+	font-family:'宋体';
+	color:#333333;
+	margin-top:19px;
+	padding-left:10px;
+}
+
+.content p{
+	font-size:12px;
+	font-family:'宋体';
+	color:#999999;
+	line-height:22px;
+	width: 204px;
+	padding-left:10px;
+	margin-top:5px;
+}
+.l3 img{
+	margin-top:1px;
+}
+.l4{
+	margin-right:0;
+}
+.l13 img{
+	margin-left:1px;
+}
+.l14 img{
+	margin-left:59px;
+}
+.l16 img{
+	margin-left:4px;
+}
+/*分页*/
+.fenye{
+	text-align:center;
+	margin-top:74px;
+	margin-bottom:100px;
+	font-size:0;
+}
+.fenye span{
+	font-size:12px;
+	margin-right:5px;
+	vertical-align:bottom;
+}
+.fenye a{
+	height: 26px;
+	line-height:26px;
+	padding:0 9px;
+	border:1px solid #D7D7D7;
+	font-size:12px;
+	color:black;
+	margin-right:5px;
+	text-align:center;
+	border-radius:3px;
+	display:inline-block;
+	vertical-align:bottom;
+}
+.fenye .a1{
+	width: 66px;
+	height: 26px;
+}
+
+.fenye .active1{
+	background-color:#AD0000;
+	border:1px solid #AD0000 ;
+	color:white;
+}
+.fenye a:hover{
+	background-color:#AD0000;
+	border:1px solid #AD0000 ;
+	color:white;
+}
+/*底部*/
+.footer{
+	text-align:center;
+}
+.footer p{
+	font-size:12px;
+	line-height:30px;
+	color:#666666;
+}
